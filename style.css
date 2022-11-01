@@ -1,0 +1,43 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.app{
+    color: white;
+    text-align: center;
+    background: #505050;
+    padding-bottom: 50px;
+    width: 600px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.75);
+}
+
+.counter-preview{
+    font-size: 150px;
+    margin: 5px;
+}
+
+#decrement, #reset, #increment{
+    padding: 10px 30px;
+    width: 150px;
+    color: white;
+    margin: 5px;
+    font-size: large;
+    border-radius: 5px;
+}
+
+#decrement { background: orange; }
+#reset { background: red; }
+#increment { background: green; }
+
+#increment:hover, #reset:hover, #decrement:hover{
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.35);
+}
